@@ -25,8 +25,8 @@ Para fazer as requisições HTTP abaixo, foi utilizada a ferramenta [Thunder Cli
 GET https://newsapi.org/v2/everything?q=tesla&from=2024-09-13&sortBy=publishedAt&apiKey=API_KEY
 
 Status: 200 OK
-Size: 265 Bytes
-Time: 428 ms
+Size: 78.24 KB
+Time: 294 ms
 ```
 
 ```json
