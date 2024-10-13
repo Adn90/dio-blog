@@ -1,0 +1,23 @@
+<app-menu-title></app-menu-title>
+
+<div class="container__articles">
+  <div>
+
+    <app-big-card
+      [content]="bigArticle.content"
+      [urlToImage]="bigArticle.urlToImage"
+      [title]="bigArticle.title"
+      [description]="bigArticle.description"
+    >
+    </app-big-card>
+
+  </div>
+
+  <div>
+    <app-small-card
+      *ngFor="let article of articles$ | async"
+      [urlToImage]="article.urlToImage"
+      [title]="article.title"
+    ></app-small-card>
+  </div>
+</div>
